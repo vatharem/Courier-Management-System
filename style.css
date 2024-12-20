@@ -1,0 +1,40 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.card:hover {
+    background-color: #f8f9fa; /* Light background */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.sect{
+background-image:linear-gradient(rgba(65, 91, 183, 0.9),rgba(56, 51, 51, 0.9)),url(./images/express1.jpg);
+  width:100%;
+  background-size: cover;
+  height: 500px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  right: 0%;
+}
+.shipping{
+  background-image:linear-gradient(rgba(26, 27, 106, 0.9),rgba(56, 51, 51, 0.9)),url(./images/bulk.jpg);
+  width:100%;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  
+}
+
+
+
